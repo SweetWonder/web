@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>SweetWonder.com</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="icon" href="img/GSlogo copia - copia.jpg">
+		 <!-- Link Swiper's CSS -->
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+		 <!-- Demo styles -->
+	</head>
+	<body>
+		<div id="loaderPagina" class="section_loader">
+			<div class="loader">
+			  <div class="loader_1"></div>
+			  <div class="loader_2"></div>
+			</div>
+		  </div>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Soporte al cliente</span>
+							<span class="number">123-456-7890</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+						<img src="img/GSlogo_copia-removebg-preview.ico">
+					</div>
+
+					<div class="container-user">
+						<i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text-1">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a  style="font: oblique bold 120% cursive;" href="index.html" class="seleccion">Inicio</a></li>
+						<li><a  style="font: oblique bold 120% cursive;" href="nosotros.html"class="seleccion">Nosotros</a></li>
+						<li><a  style="font: oblique bold 120% cursive;" href="Productos.html" class="seleccion">Productos</a></li>
+						<li><a  style="font: oblique bold 120% cursive;" href="Contactanos.html"class="seleccion">Contactanos</a></li>
+					</ul>
+					</form>
+				</nav>
+			</div>
+		</header>
+		<section id="container-slider">    
+			<ul class="listslider">
+			  <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+			  <li><a itlist="itList_1" href="#"></a></li>
+			  <li><a itlist="itList_2" href="#"></a></li>
+			</ul>
+			<ul id="slider">
+			  <li style="background-image: url('img/slider-1.jpg'); z-index:0; opacity: 1;">
+				<div class="content_slider" >
+				  <div>
+					<p style="font-weight: 700;">TRADICIONAL & DELICIOSO</p>
+					<h2 style="font: oblique bold 600% cursive;">Contactanos</h2>
+				<a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+			  </div>
+				</div>
+			  </li>
+			  <li style="background-image: url('img/blog-2.jpg'); ">
+				<div class="content_slider" >
+				  <div>
+				<p style="font-weight: 700;">TRADICIONAL & DELICIOSO</p>
+				<h2 style="font: oblique bold 600% cursive;">Contactanos</h2>
+				<a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+			  </div>
+				</div>
+			  </li>
+			  <li style="background-image: url('img/blog-3.jpg'); ">
+				<div class="content_slider" >
+				  <div>
+					<p style="font-weight: 700;">TRADICIONAL & DELICIOSO</p>
+					<h2 style="font: oblique bold 600% cursive;">Contactanos</h2>
+				<a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+			  </div>
+			</div>
+		</li>
+	</ul>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+}
+.pic{
+  height: auto;
+  width:  500px;
+  clip-path: circle(40%);
+}
+.about{
+height: 500px;
+  width: 1100px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-2{
+  width: 590px;
+}
+.text-2 h2{
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text-2 h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #d2b202;
+}
+.text-2 p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #5b3a29;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+</style>
+	<section class="about-us">
+		<div class="about">
+		  <img src="img/gallery2.jpg" class="pic">
+		  <div class="text-2">
+			<h2>Nuestro Equipo</h2>
+			<h5>Sabor<span>Universal</span></h5>
+			  <p style="color: black; font-weight: 500;">
+				En SweetWonder, somos amantes del buen café, los deliciosos postres y las refrescantes malteadas. Nos dedicamos a crear un ambiente acogedor donde puedas disfrutar de momentos especiales, ya sea solo, con amigos o en familia. Nuestro compromiso es ofrecerte productos de la más alta calidad y un servicio cálido y amable. ¡Bienvenido a nuestra casa!"
+			  </p>
+			  <br><a href="#" class="hire">Contactanos</a></br>
+			</div>
+		  </div>
+		</div>
+	  </section
+	  </div>
+        <style>*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat',sans-serif;
+          }
+          .cards{
+            max-width: 1300px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 40px;
+			background: #fff6ed;
+          }
+          .cards h2.header{
+            font-size: 40px;
+            margin: 0 0 30px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          .services{
+            display: flex;
+            align-items: center;
+          }
+          .content{
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 4px;
+            transition: all .3s ease;
+          }
+          .content .fab{
+            font-size: 70px;
+            margin: 16px 0;
+          }
+          .content > *{
+            flex: 1 1 100%;
+          }
+          .content:hover{
+            color: white;
+          }
+          .content:hover a{
+            border-color: white;
+            background: white;
+          }
+          .content-1:hover{
+            border-color: #1DA1F2;
+            background: #1DA1F2;
+          }
+          .content-1:hover a{
+            color: #1DA1F2;
+          }
+          .content-2:hover{
+            border-color: #E1306C;
+            background: #E1306C;
+          }
+          .content-2:hover a{
+            color: #E1306C;
+          }
+          .content-3:hover{
+            border-color: #2338f3;
+            background: #2338f3;
+          }
+          .content-3:hover a{
+            color: #2338f3;
+          }
+          .content h2{
+            font-size: 30px;
+            margin: 16px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+          }
+          .content p{
+            font-size: 17px;
+            font-family: 'Poppins',sans-serif;
+          }
+          .content a{
+            margin: 22px 0;
+            background: black;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 1px solid black;
+            padding: 15px 0;
+            border-radius: 25px;
+            transition: .3s ease;
+          }
+          .content a:hover{
+            border-radius: 4px;
+          }
+          @media (max-width: 900px) {
+            .services{
+              display: flex;
+              flex-direction: column;
+            }
+          }</style>
+        <div class="cards">
+            <h2 style="font: oblique bold 300% cursive;" class="header">
+               Encuentranos en:
+            </h2>
+            <div class="services">
+               <div class="content content-1">
+                  <div class="fab fa-twitter"></div>
+                  <h2>
+                     Twitter
+                  </h2>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                  </p>
+                  <a href="https://twitter.com/">Visitar</a>
+               </div>
+               <div class="content content-2">
+                  <div class="fab fa-instagram"></div>
+                  <h2>
+                     Instagram
+                  </h2>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                  </p>
+                  <a href="https://www.instagram.com/">Visitar</a>
+               </div>
+               <div class="content content-3">
+                  <div class="fab fa-facebook"></div>
+                  <h2>
+                     Facebook
+                  </h2>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+                  </p>
+                  <a href="https://www.facebook.com/">Visitar</a>
+               </div>
+            </div>
+         </div>
+<section>
+	<style>
+		.comments-section {
+  background-color: #fff6ed; /* Fondo claro */
+  padding: 20px;
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.title {
+  text-align: center; /* Título centrado */
+  font-size: 24px;
+  font-weight: bold;
+  color: #964B00; /* Color café */
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comment {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.comment img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.comment-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-size: 16px;
+  color: #964B00; /* Color café */
+  margin-bottom: 10px;
+}
+
+.comment p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-comment {
+  background-color: #964B00; /* Color café */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-comment:hover {
+  background-color: #786343; /* Color café oscuro */
+}
+	</style>
+	<div class="comments-section">
+		<h2 class="title">Comentarios y Reseñas</h2>
+		<div class="comments-list">
+		  <div class="comment">
+			<img src="img/people1.jpg" alt="Foto de usuario">
+			<div class="comment-info">
+			  <h3>Juan Pérez</h3>
+			  <span class="rating">4.5/5</span>
+			  <p>Me encantó el servicio, muy amigable y eficiente.</p>
+			</div>
+		  </div>
+		  <div class="comment">
+			<img src="https://via.placeholder.com/50" alt="Foto de usuario">
+			<div class="comment-info">
+			  <h3>Maria Rodríguez</h3>
+			  <span class="rating">5/5</span>
+			  <p>Excelente atención al cliente, muy recomendable.</p>
+			</div>
+		  </div>
+		  <div class="comment">
+			<img src="https://via.placeholder.com/50" alt="Foto de usuario">
+			<div class="comment-info">
+			  <h3>Pedro García</h3>
+			  <span class="rating">4/5</span>
+			  <p>Buen servicio, pero hubo un pequeño retraso en la entrega.</p>
+			</div>
+		  </div>
+		  <div class="comment">
+			<img src="https://via.placeholder.com/50" alt="Foto de usuario">
+			<div class="comment-info">
+			  <h3>Sofía López</h3>
+			  <span class="rating">5/5</span>
+			  <p>Me encantó la variedad de productos y la atención personalizada.</p>
+			</div>
+		  </div>
+		  <div class="comment">
+			<img src="https://via.placeholder.com/50" alt="Foto de usuario">
+			<div class="comment-info">
+			  <h3>Carlos Martínez</h3>
+			  <span class="rating">4.5/5</span>
+			  <p>Buen servicio, pero podrían mejorar la comunicación.</p>
+			</div>
+		  </div>
+		</div>
+		<button class="btn-comment">Comentar</button>
+	  </div>
+</section>
+		 <style>
+.mapa-contenedor {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff6ed;
+}
+
+.mapa {
+  width: 50%;
+  height: 50vh;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+</style>
+		<section>
+			<div class="mapa-contenedor">
+				<h2 style="margin-bottom: 50px; font-size: 47px;">Estamos Ubicados en...</h2>
+				<div class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.9019497302916!2d-72.52349058892813!3d7.905311473221271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e664f2714c76c3b%3A0x89bd50b2c5472b90!2sCeci!5e0!3m2!1ses!2sco!4v1726764590125!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="Nosotros">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 3203041934</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: SweatWonder@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<button id="whatsappButton" class="Whatsapp">
+								<i class="fab fa-whatsapp"></i>
+							</button>
+							<button  id="facebookButton" class="facebook">
+								<i class="fab fa-facebook"></i>
+							</button>
+							<button id="twitterButton" class="twitter">
+								<i class="fab fa-twitter"></i>
+							</button>
+							<button id="instagramButton" class="instagram">
+								<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+						</ul>
+					</div>
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Daniel Contreras Grado 1103 &copy; 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/index.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
