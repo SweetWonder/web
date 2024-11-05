@@ -24,13 +24,13 @@ document.getElementById('facebookButton').addEventListener('click', function() {
 
 document.getElementById('twitterButton').addEventListener('click', function() {
     var twitterUsername = 'nombredeusuario';
-    var twitterLink = 'https://twitter.com/' + twitterUsername;
+    var twitterLink = 'https://x.com/sweet_wond22914?t=hFyJ8RUHv_1UTZnX6wplxQ&s=09' + twitterUsername;
     window.open(twitterLink, '_blank');
 });
 
 document.getElementById('instagramButton').addEventListener('click', function() {
     var instagramUsername = 'nombredeusuario';
-    var instagramLink = 'https://www.instagram.com/' + instagramUsername;
+    var instagramLink = 'https://www.instagram.com/sweetwonder1/?utm_source=qr&igsh=MWw2ZzZvcGdneW1rcw%3D%3D#' + instagramUsername;
     window.open(instagramLink, '_blank');
 });
 if(document.querySelector('#container-slider')){
