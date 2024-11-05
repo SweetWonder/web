@@ -107,9 +107,15 @@ html {
 }
 
 .heading-1 {
+	font-size: 2.5em; 
+	color: #5b3a29; 
+	margin-bottom: 20px; 
+	padding: 10px; 
+	background-color: #e8d4c1;
+	border-radius: 8px; 
+	display: inline-block; 
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 	text-align: center;
-	font-weight: 500;
-	font-size: 3rem;
 }
 
 /* ********************************** */
@@ -236,6 +242,7 @@ html {
 
 .menu a:hover {
 	color: #d2b202;
+
 
 }
 

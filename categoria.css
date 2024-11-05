@@ -107,9 +107,13 @@ transform: rotate(-360deg);
 }
 
 .heading-1 {
+	font-size: 2.5em; 
+	color: #5b3a29; 
+	margin-bottom: 20px; 
+	padding: 10px; 
+	background-color: #e8d4c1;
+	border-radius: 8px; 
 	text-align: center;
-	font-weight: 500;
-	font-size: 3rem;
 }
 
 /* ********************************** */
@@ -706,7 +710,7 @@ img{
 }
 .menu-btns{
     padding: 2rem 0;
-	margin-top: 50px;
+	margin-top: 10px;
     display: flex;
     justify-content: center;
 	background-color: var(--primary-color);
@@ -837,6 +841,21 @@ img{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
+}
+.add-to-cart {
+    background-color: #d2b202; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    color: #fff; /* Color del texto */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    margin-top: 10px; /* Espacio arriba del botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.add-to-cart:hover {
+    background-color: #a18a00; /* Color de fondo al pasar el mouse */
 }
 /* ********************************** */
 /*               FOOTER               */

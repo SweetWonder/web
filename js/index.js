@@ -16,15 +16,9 @@ loader.classList.add("show_loader");
 const hideLoader = () => {
     loader.classList.remove("show_loader");
 }
-document.getElementById('whatsappButton').addEventListener('click', function() {
-    var phoneNumber = '123456789';
-    var whatsappLink = 'whatsapp://send?phone= +57 3133933052' + phoneNumber;
-    window.open(whatsappLink, '_blank');
-});
-
 document.getElementById('facebookButton').addEventListener('click', function() {
     var facebookUsername = 'nombredeusuario';
-    var facebookLink = 'https://www.facebook.com/' + facebookUsername;
+    var facebookLink = 'https://www.facebook.com/profile.php?id=61566224671694&mibextid=qi2Omg&rdid=QGd8VuQLTyuVP0vP&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FYe5HxxxymE2j46uA%2F%3Fmibextid%3Dqi2Omg#' + facebookUsername;
     window.open(facebookLink, '_blank');
 });
 
